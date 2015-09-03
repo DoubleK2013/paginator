@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.page{
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.page ul{
+  display: inline-block;
+  list-style-type: none; 
+}
+.page ul li{
+  float: left;
+  margin-right: 10px;
+}
+.page ul li a:hover,.page ul li a.current{
+  color: #cc9944;
+}
+.page ul li a.disable{
+    color: #D1D1D1;
+    cursor: not-allowed;
+}
